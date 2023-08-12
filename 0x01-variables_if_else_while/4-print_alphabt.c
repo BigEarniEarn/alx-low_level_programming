@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - A program that prints the lphabet in lowercase
+ * main - A program that prints the alphabet in lowercase
  * Return: 0 (Success)
  */
 int main(void)
@@ -8,10 +8,8 @@ int main(void)
 	char i;
 
 	for (i = 'a' ; i <= 'z' ; i++)
-	{
 		if (i != 'q' && i != 'e')
 			putchar(i);
-		putchar('\n');
-	}
+	putchar('\n');
 	return (0);
 }
