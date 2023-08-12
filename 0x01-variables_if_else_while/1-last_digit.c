@@ -8,11 +8,12 @@
 int main(void)
 {
 	int n;
+	int num;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* code below */
-	int num = n % 10;
+	num = n % 10;
 
 	if (num > 5)
 	{
